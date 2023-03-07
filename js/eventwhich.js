@@ -18,11 +18,3 @@ document.addEventListener("keydown", function (event) {
     <b>key:</b> ${event.key}
   `;
 });
-
-/*When a KeyboardEvent fires, you can test which key was pressed because that event contains information you can write logic against.
-
-document.addEventListener("keydown", function(event) {
-  console.log(event.which);
-})
-For example, by pressing a, you’ll get 65
-*/
